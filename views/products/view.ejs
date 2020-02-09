@@ -1,0 +1,14 @@
+<%- include("../template/header"); -%>
+<h1>Products</h1><br><br>
+
+<a href="../crud/<%- product.id -%>/delete">- Delete</a>
+<a href="">+ Edit</a>
+
+<div>
+  <h2><%- product.title -%></h2>
+  <img width="200px" src="../images/<%- product.image -%>" alt=""><br><br>
+  <h4>ABOUT:</h4>
+  <p><%- product.description -%></p>
+</div>
+
+<%- include("../template/footer"); -%>

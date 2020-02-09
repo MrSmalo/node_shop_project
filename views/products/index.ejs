@@ -1,0 +1,13 @@
+<%- include("../template/header"); -%>
+<h1>Products</h1><br><br>
+
+<a href="crud/create">+ Create</a>
+
+<% for(let i = 0; i < products.length; i++){ %>
+<div>
+  <h2><%- products[i].title -%></h2>
+  <img width="200px" src="images/<%- products[i].image -%>" alt="">
+  <a href="products/<%- products[i].id -%>">more details...</a>
+</div>
+<% } %>
+<%- include("../template/footer"); -%>

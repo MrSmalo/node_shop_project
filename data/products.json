@@ -1,0 +1,21 @@
+[{
+  "id": "2",
+  "title": "Product Two",
+  "description": "Product Two Description",
+  "image": "cake.jpg"
+}, {
+  "id": "3",
+  "title": "Product Three",
+  "description": "Product Three Description",
+  "image": "bread.jpg"
+}, {
+  "id": "4",
+  "title": "Product Four",
+  "description": "Product Four Description",
+  "image": "coffee.jpg"
+}, {
+  "id": "8",
+  "title": "Cookie",
+  "description": "Deliciouse cookies for every one",
+  "image": "cookie.jpg"
+}]
